@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/5/w3.css" />
+    <link rel="stylesheet" href="stylle.css" />
+    <title>IFPI</title>
+  </head>
+  <body>
+    <header>
+      <ul>
+        <li><a href="#home">Efetuar Matrícula</a></li>
+        <li><a href="#home">Como Ingressar</a></li>
+        <li class="dropdown">
+          <a class="dropbtn">Cursos</a>
+          <div class="dropdown-content">
+            <a href="#">Informática</a>
+            <a href="#">Administração</a>
+            <a href="#">Agropecuária</a>
+            <a href="#">Mineração</a>
+          </div>
+        </li>
+        <li><a href="indexx.html">Início</a></li>
+      </ul>
+    </header>
+    <div class="subscription-form-container">
+      <form action="#">
+        <h4><b> Matrícula de Alunos </b></h4>
+        <br />
+        <label for="nome" met>Nome</label>
+        <input
+          type="text"
+          id="nome"
+          name="nome"
+          placeholder="Digite seu nome"
+        />
+        <br />
+        <br />
+        <label for="email">E-mail</label>
+        <input type="email" id="email" name="email" required />
+        <br />
+        <br />
+        <label for="data">Data de nascimento</label>
+        <input type="data" id="data" name="data" required />
+        <br />
+        <br />
+        <label for="senha">Senha</label>
+        <input type="password" id="senha" name="senha" required />
+        <br />
+        <br />
+        <button type="submit">Confirmar</button>
+      </form>
+      <img
+        src="data:image/png;base64,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"
+        alt=""
+        height="250px"
+      />
+    </div>
+    <footer>
+      <div class="container">
+        <div class="left">
+          <h3>Endereço</h3>
+          <p>IFPI - Paulistana</p>
+          <p>Rodovia BR 407, km 5, s/n</p>
+          <p>Paulistana - PI, 64750-000</p>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
