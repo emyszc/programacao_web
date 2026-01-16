@@ -1,0 +1,34 @@
+body{
+    background-color:rgb(253, 217, 235);
+}
+h1{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   background-color:rgb(201, 151, 248);
+}
+.button:hover{
+    transform: scale(1.2);
+    border: 2px black solid;
+}
+.salao{
+    padding: 20%;
+    background-color: rgb(219, 187, 249);
+    border-radius: 30px;
+    margin: 1vh 5vw;
+    width: 200px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+#saloes{
+    display: grid;
+    grid-template-columns: 30% 30% 30% ;
+    justify-content: center;
+}
+.salao:hover{
+     transform: scale(1.05);
+    border: 2px black solid;
+}
